@@ -1,0 +1,46 @@
+.article-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+}
+
+.article-image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.article-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.article-content {
+  padding: 15px;
+}
+
+.article-title {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.article-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.article-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
